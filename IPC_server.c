@@ -38,3 +38,10 @@ unlink(FIFO1);
 close(writefd);
 unlink(FIFO2);
 }
+/*output
+bmsce@bmsce-Precision-T1700:~$ cd Desktop/
+bmsce@bmsce-Precision-T1700:~/Desktop$ cc IPCserver.c -o server
+bmsce@bmsce-Precision-T1700:~/Desktop$ ./server
+waiting for connection request
+connection establishment
+client has requested file sc*/
