@@ -35,7 +35,7 @@ return 0;
 }
 
 
-//output
+/*output
 bmsce@bmsce-Precision-T1700:~/Desktop$ cc IPCclient.c -o client
 bmsce@bmsce-Precision-T1700:~/Desktop$ ./client
 trying to connect to server
